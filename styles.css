@@ -81,3 +81,18 @@ ul li {
     position: relative;
     bottom: 0;
 }
+
+input[type="number"] {
+    width: 100%; /* Ensure the input boxes take full width */
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px; /* Limit the container width for better visibility */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+    background-color: #f4f4f9; /* Optional: Background color for clarity */
+}
