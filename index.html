@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plate Weight Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Plate Calculator</h1>
+
+        <!-- New explanation box -->
+        <p class="explanation">
+            Note: The calculated plates are for <strong>both sides</strong> of the bar. You will need to load the listed amount of plates on each side.
+        </p>
+
+        <div class="inputs">
+            <label for="desiredWeight">Desired Weight to Lift:</label>
+            <input type="number" id="desiredWeight" placeholder="Enter total weight" />
+
+            <label for="barWeight">Bar Weight:</label>
+            <input type="number" id="barWeight" placeholder="Enter bar weight" />
+        </div>
+
+        <button id="calculate">Calculate Plates</button>
+
+        <div id="output">
+            <h3>Plates Required:</h3>
+            <ul id="plateList"></ul>
+        </div>
+    </div>
+
+    <!-- Image Tag (add it here) -->
+    <img src="NattyPlus.jpg" alt="NattyPlus Gym Image" class="bottom-image">
+    
+    <script src="script.js"></script>
+</body>
+</html>
